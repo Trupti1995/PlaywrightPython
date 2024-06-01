@@ -1,0 +1,6 @@
+{
+    "loginButton":"//a[@data-event-name='LOGIN']",
+    "mobileNumberInputLocator":"input#mobileNumber",
+    "loginSubmitButton": "//button[@type='submit']",
+    "passwordInputLocator":"input#password"
+}
