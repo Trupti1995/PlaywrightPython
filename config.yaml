@@ -1,0 +1,11 @@
+default:
+  url: "https://mysitebook.io/"
+  loginPageUrl: "https://app.mysitebook.io/app/auth/signin"
+  projectsPageUrl: "https://app.mysitebook.io/app/projects?type=active"
+
+development:
+  url: "https://mysitebook.io/"
+  title: "Home | My Site Book"
+  loginPageUrl: "https://app.mysitebook.io/app/auth/signin"
+  projectsPageUrl: "https://app.mysitebook.io/app/projects?type=active"
+
