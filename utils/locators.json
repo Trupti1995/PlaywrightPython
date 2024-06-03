@@ -2,5 +2,73 @@
     "loginButton":"//a[@data-event-name='LOGIN']",
     "mobileNumberInputLocator":"input#mobileNumber",
     "loginSubmitButton": "//button[@type='submit']",
-    "passwordInputLocator":"input#password"
+    "passwordInputLocator":"input#password",
+    "projectCardLocator":"//span[contains(text(),'Sample Bungalow')]",
+    "projectCardsListLocator":"div.mob-cards",
+    "detailedStatementLocator":"//p[contains(text(),' Detailed Estimate')]",
+    
+    "groundFloorRowLocator":"//td[contains(text(),'Ground Flooring')]//..",
+    "groundFloorQuantitySelector":"//td[contains(text(),'Ground Flooring')]//../td[@id='quantity']",
+    "groundFloorUnitSelector":"//td[contains(text(),'Ground Flooring')]//../td[@id='unit']",
+    "groundFloorTotalCostSelector":"//td[contains(text(),'Ground Flooring')]//../td[@id='total']",
+
+    "fronYardRowLocator":"//td[contains(text(),'Front Yard')]//..",
+    "fronYardQuantitySelector":"//td[contains(text(),'Front Yard')]//../td[@id='quantity']",
+    "fronYardUnitSelector":"//td[contains(text(),'Front Yard')]//../td[@id='unit']",
+    "fronYardTotalCostSelector":"//td[contains(text(),'Front Yard')]//../td[@id='total']",
+
+    "parkingAreaRowLocator":"(//td[contains(text(),'Parking Area')]//..)[1]",
+    "parkingAreaQuantitySelector":"(//td[contains(text(),'Parking Area')]//../td[@id='quantity'])[1]",
+    "parkingAreaUnitSelector":"(//td[contains(text(),'Parking Area')]//../td[@id='unit'])[1]",
+    "parkingAreaTotalCostSelector":"(//td[contains(text(),'Parking Area')]//../td[@id='total'])[1]",
+
+    "passageRowLocator":"//td[contains(text(),'Passage')]//..",
+    "passageQuantitySelector":"//td[contains(text(),'Passage')]//../td[@id='quantity']",
+    "passageUnitSelector":"//td[contains(text(),'Passage')]//../td[@id='unit']",
+    "passageTotalCostSelector":"//td[contains(text(),'Passage')]//../td[@id='total']",
+
+    "lobbyRowLocator":"(//td[contains(text(),'Lobby')]//..)[1]",
+    "lobbyQuantitySelector":"(//td[contains(text(),'Lobby')]//../td[@id='quantity'])[1]",
+    "lobbyUnitSelector":"(//td[contains(text(),'Lobby')]//../td[@id='unit'])[1]",
+    "lobbyTotalCostSelector":"(//td[contains(text(),'Lobby')]//../td[@id='total'])[1]",
+
+    "toiletParkingAreaRowLocator":"//td[contains(text(),'Toilet Parking Area')]//..",
+    "toiletParkingAreaQuantitySelector":"//td[contains(text(),'Toilet Parking Area')]//../td[@id='quantity']",
+    "toiletParkingAreaUnitSelector":"//td[contains(text(),'Toilet Parking Area')]//../td[@id='unit']",
+    "toiletParkingAreaTotalCostSelector":"//td[contains(text(),'Toilet Parking Area')]//../td[@id='total']",
+
+    "dining&DrawingroomRowLocator":"//td[contains(text(),'Dining & Drawing room')]//..",
+    "dining&DrawingroomQuantitySelector":"//td[contains(text(),'Dining & Drawing room')]//../td[@id='quantity']",
+    "dining&DrawingroomUnitSelector":"//td[contains(text(),'Dining & Drawing room')]//../td[@id='unit']",
+    "dining&DrawingroomTotalCostSelector":"//td[contains(text(),'Dining & Drawing room')]//../td[@id='total']",
+
+    "pantryAreaRowLocator":"//td[contains(text(),'Pantry Area')]//..",
+    "pantryAreaQuantitySelector":"//td[contains(text(),'Pantry Area')]//../td[@id='quantity']",
+    "pantryAreaUnitSelector":"//td[contains(text(),'Pantry Area')]//../td[@id='unit']",
+    "pantryAreaTotalCostSelector":"//td[contains(text(),'Pantry Area')]//../td[@id='total']",
+
+    "backyardRowLocator":"//td[contains(text(),'Backyard')]//..",
+    "backyardQuantitySelector":"//td[contains(text(),'Backyard')]//../td[@id='quantity']",
+    "backyardUnitSelector":"//td[contains(text(),'Backyard')]//../td[@id='unit']",
+    "backyardTotalCostSelector":"//td[contains(text(),'Backyard')]//../td[@id='total']",
+
+    "firstFloorRowLocator":"//td[contains(text(),'First Floor')]//..",
+    "firstFloorQuantitySelector":"//td[contains(text(),'First Floor')]//../td[@id='quantity']",
+    "firstFloorUnitSelector":"//td[contains(text(),'First Floor')]//../td[@id='unit']",
+    "firstFloorTotalCostSelector":"//td[contains(text(),'First Floor')]//../td[@id='total']",
+
+    "diningAreaRowLocator":"//td[contains(text(),'Dining Area')]//..",
+    "diningAreaQuantitySelector":"//td[contains(text(),'Dining Area')]//../td[@id='quantity']",
+    "diningAreaUnitSelector":"//td[contains(text(),'Dining Area')]//../td[@id='unit']",
+    "diningAreaTotalCostSelector":"//td[contains(text(),'Dining Area')]//../td[@id='total']",
+
+    "balconyRowLocator":"//td[contains(text(),'Balcony')]//..",
+    "balconyQuantitySelector":"//td[contains(text(),'Balcony')]//../td[@id='quantity']",
+    "balconyUnitSelector":"//td[contains(text(),'Balcony')]//../td[@id='unit']",
+    "balconyTotalCostSelector":"//td[contains(text(),'Balcony')]//../td[@id='total']",
+
+    "livingAreaRowLocator":"//td[contains(text(),'Living Area')]//..",
+    "livingAreaQuantitySelector":"//td[contains(text(),'Living Area')]//../td[@id='quantity']",
+    "livingAreaUnitSelector":"//td[contains(text(),'Living Area')]//../td[@id='unit']",
+    "livingAreaTotalCostSelector":"//td[contains(text(),'Living Area')]//../td[@id='total']"
 }
